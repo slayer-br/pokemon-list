@@ -1,4 +1,4 @@
-# 🎮 Pokémon Web App  
+# 🎮 Listagens de Pokémon   
 
 Aplicação web interativa que exibe Pokémons em cards animados utilizando **HTML, CSS e JavaScript puro**.  
 Desenvolvido como parte do **desafio DevQuest Starter**, com foco em prática de front-end sem frameworks.  
@@ -64,8 +64,8 @@ Desenvolvido como parte do **desafio DevQuest Starter**, com foco em prática de
 
 ## 🔗 Links
 
-- Site ao vivo: <a href="https://slayer-br.github.io/cyberheroes-dbz/" target="_blank" rel="noopener noreferrer">Cyber Heroes</a>
-- GitHub: <a href="https://github.com/slayer-br/cyberheroes-dbz" target="_blank" rel="noopener noreferrer">Cyber Heroes</a>
+- Site ao vivo: <a href="https://github.com/slayer-br/pokemon-list" target="_blank" rel="noopener noreferrer">Cyber Heroes</a>
+- GitHub: <a href="https://github.com/slayer-br/pokemon-list" target="_blank" rel="noopener noreferrer">Cyber Heroes</a>
 
 ---
 
