@@ -1,0 +1,175 @@
+@import "reset.css";
+@import "scrollbar.css";
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #5e5b5bad;
+  color: #333333;
+}
+
+body.dark-mode {
+  background-color: #212121;
+  color: #f5f5f5;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5rem;
+}
+
+header h1 {
+  flex-grow: 1;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+
+header .logo,
+header .icon-theme {
+  width: 30px;
+  height: 30px;
+  transition: 0.3s ease-in-out;
+}
+
+header .btn-theme-toggle {
+  background-color: transparent;
+  border: none;
+}
+
+header .logo:hover,
+header .icon:hover,
+main .pokemon-card:hover {
+  transform: scale(1.09);
+  cursor: pointer;
+}
+
+main {
+  padding: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .pokemon-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+main .pokemon-card {
+  background-color: #d8e3ec;
+  width: 200px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  border-radius: 15px;
+  transition: 0.3s ease-in-out;
+}
+
+main .pokemon-card:hover {
+  background-color: #96d9d6;
+}
+
+.dark-mode .pokemon-card {
+  background-color: #a8a8a8;
+}
+
+.pokemon-card .information {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #333333;
+  border-radius: 1rem;
+  
+}
+
+.dark-mode .information {
+  border: 1px solid #f5f5f5;
+}
+
+.pokemon-card .information span {
+  padding: 0.5rem;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+}
+
+.pokemon-card .pokemon-image {
+  width: 90px;
+  height: 90px;
+}
+
+.pokemon-card .types {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.pokemon-card .types .type {
+  padding: 0.8rem;
+  border-radius: 1rem;
+}
+
+.pokemon-card .types .grass {
+  background-color: #7ac74c;
+}
+
+.pokemon-card .types .poison {
+  background-color: #df67ddfb;
+}
+
+.pokemon-card .types .fire {
+  background-color: #ee8130;
+}
+
+.pokemon-card .types .water {
+  background-color: #6390f0;
+}
+
+.pokemon-card .types .bug {
+  background-color: #a6b91a;
+}
+
+.pokemon-card .types .flying {
+  background-color: #a98ff3;
+}
+
+.pokemon-card .description {
+  max-height: 8rem;
+  overflow-y: scroll;
+  font-size: 1.4rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  body{
+    width: 900px;
+  }
+  
+  header h1 {
+    font-size: 4.2rem;
+  }
+  
+  main .pokemon-list {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1200px) {
+  body{
+    width: 1400px;
+  }
+}
