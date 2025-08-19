@@ -64,8 +64,8 @@ Desenvolvido como parte do **desafio DevQuest Starter**, com foco em prática de
 
 ## 🔗 Links
 
-- Site ao vivo: <a href="https://github.com/slayer-br/pokemon-list" target="_blank" rel="noopener noreferrer">Lista de Pokémons</a>
 - GitHub: <a href="https://github.com/slayer-br/pokemon-list" target="_blank" rel="noopener noreferrer">Lista de Pokémons</a>
+- Site ao vivo: <a href="https://github.com/slayer-br/pokemon-list" target="_blank" rel="noopener noreferrer">Lista de Pokémons</a>
 
 ---
 
